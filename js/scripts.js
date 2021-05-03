@@ -187,7 +187,7 @@ $(document).ready(function () {
             title: "Malcolm and Kimberly's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('August 6, 2021 16:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
@@ -197,10 +197,10 @@ $(document).ready(function () {
             end: new Date('Nov 29, 2017 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Ala Wai Boa Harbot, Honolulu, HI',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Malcolm Smith at 1234567890."
         }
     });
 
