@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+\newif\ifsmall \smallfalse
+\ifsmall
+  \usepackage[a6paper,hmargin=1.6cm,vmargin=1.9cm]{geometry}
+\else
+  \usepackage[a5paper,hmargin=1.6cm,vmargin=3.7cm]{geometry}
+\fi
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{transparent,tikz,pgfornament,Rothdn,cinzel}
+
+\pagestyle{empty}
+\setlength\parindent{0pt}
+
+\newcommand{\setbackgroundimg}[1]{%
+  \begin{tikzpicture}[remember picture, overlay]%
+    \node[inner sep=0pt] at (current page.center)%
+      {\includegraphics[width=\paperwidth,height=\paperheight]{#1}};%
+  \end{tikzpicture}}
+\ifsmall
+  \newcommand{\tinypgf}[1]{\pgfornament[height=8pt,color=black,opacity=0.6,ydelta=-1.5mm]{#1}}
+\else
+  \newcommand{\tinypgf}[1]{\pgfornament[height=8pt,color=black,opacity=0.6,ydelta=-2mm]{#1}}
+\fi
+\newcommand{\largename}[1]{\mbox{\normalfont\ifsmall\large\else\LARGE\fi\transparent{1} #1}}
+\newcommand{\smallvspace}{\vspace{-6.5mm}}
+\newcommand{\largevspace}{\vspace{-8mm}}
+\newcommand{\esttime}{\href{https://www.timeanddate.com/time/zone/usa/new-york}{E.S.T.}}
+\newenvironment{fancytext}{%
+  \begin{center}\Rothdnfamily\ifsmall\large\else\LARGE\fi\transparent{0.9}%
+  }{%
+  \end{center}%
+}
+\newenvironment{plaintext}{%
+  \begin{center}\ifsmall\footnotesize\else\normalsize\fi\obeylines%
+  }{%
+  \end{center}%
+}
+
+%% ---
+\begin{document}
+\setbackgroundimg{img/bird-border/cropped.jpg}%
+\begin{fancytext}
+  Together with their families,\\[4mm]
+  \largename{THE BRIDE}\\[2mm]
+  \mbox{\tinypgf{11} and \tinypgf{14}}\\[2mm]
+  {\largename{THE GROOM}}\\[3.6mm]
+  request the honor of\\
+  your presence at\\
+  their wedding ceremony.
+\end{fancytext}
+
+\smallvspace
+\begin{plaintext}
+  0000-00-00~~00:00 \esttime
+  {The Church}
+  {City, ST}
+\end{plaintext}
+
+\largevspace
+\begin{fancytext}
+  Reception to follow
+\end{fancytext}
+
+\smallvspace
+\begin{plaintext}
+  0000-00-00~~00:00 \esttime
+  {The Venue}
+  {City, ST}
+\end{plaintext}
+\end{document}
