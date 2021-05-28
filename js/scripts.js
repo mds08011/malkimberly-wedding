@@ -184,23 +184,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Malcolm and Kimberly's Wedding",
+            title: "Kimberly and Malcolm's Wedding",
 
             // Event start date
-            start: new Date('August 6, 2021 16:00'),
+            start: new Date('August 6, 2021 17:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('August 6, 2021 22:00'),
+            end: new Date('August 6, 2021 21:30'),
 
             // Event Address
-            address: 'Ala Wai Boa Harbot, Honolulu, HI',
+            address: 'Ala Wai Boat Harbor, Honolulu, HI',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Malcolm Smith at 1234567890."
+            description: "We're excited to see you!"
         }
     });
 
@@ -239,34 +239,6 @@ $(document).ready(function () {
 
 /********************** Extras **********************/
 
-// Google map
-function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: location,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
-
-function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: la_fiesta,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: la_fiesta,
-        map: map
-    });
-}
 
 // alert_markup
 function alert_markup(alert_type, msg) {
