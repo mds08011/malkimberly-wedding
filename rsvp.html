@@ -78,8 +78,8 @@
         
         <!--Update the URL for thank you page on form submit -->
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-        onload="if(submitted) {window.location.href = '/thank.html';}"></iframe>
-
+        onload="if(submitted) {window.location.href = '/thanks.html';}"></iframe>
+        <!-- window.location.assign("/path") -->
         
         <!-- Update the Google forms URL in action-->
         <form action="https://docs.google.com/forms/d/e/1FAIpQLSdYcwuVIa_vhLRglEmj6rvHxE7qYyw-UA31lrrFIBZIr0gzDQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
@@ -108,6 +108,7 @@
             <button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">Send</button>
           </div>
         </form>
+        <!-- $('#add-to-cal').html(myCalendar); -->
     </div>
     </div>
         <script type="text/javascript">
