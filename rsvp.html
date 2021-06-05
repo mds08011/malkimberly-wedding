@@ -77,13 +77,11 @@
         <script type="text/javascript">var submitted=false;</script>
         
         <!--Update the URL for thank you page on form submit -->
-        <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-        onload="if(submitted) {window.location.href = '/thanks.html';}"></iframe> -->
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.href = '/thanks.html';}"></iframe>
         <!-- window.location.assign("/path") -->
 
         <!-- Update the Google forms URL in action-->
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfQ2T5Xz3kf5yhTvoUqRICwtundaKixCq8gMlsy6wKhACGPkQ/formResponse" method="post">
-           <!-- target="hidden_iframe" onsubmit="submitted=true;"> -->
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfQ2T5Xz3kf5yhTvoUqRICwtundaKixCq8gMlsy6wKhACGPkQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
           <div class="w3-section">
             <p>Which invitation did you receive?</p> 
             <input class="w3-check" type="checkbox" id="event" name="entry.557756205">
@@ -96,15 +94,15 @@
             <label>In-Person Party (August 7, 2021)</label>
           </div>
           <div class="w3-section">
-            <label>Name</label>
+            <label for="name">Name</label>
             <input class="w3-input w3-border" type="text" placeholder="Name" id="name" name="entry.1060308829">
           </div>
           <div class="w3-section">
-            <label>Email</label>
+            <label for="email">Email</label>
             <input class="w3-input w3-border" type="text" placeholder="Email" id="email" name="entry.1630061608">
           </div>
           <div class="w3-section">
-            <label>Mailing Address</label>
+            <label for="mailing">Mailing Address</label>
             <input class="w3-input w3-border" type="text" placeholder="Mailing Address" id="mailing" name="entry.1861048941">
           </div>
           <div class="w3-section">
