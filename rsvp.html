@@ -80,15 +80,15 @@
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
         onload="if(submitted) {window.location.href = '/thanks.html';}"></iframe>
         <!-- window.location.assign("/path") -->
-        
+
         <!-- Update the Google forms URL in action-->
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfQ2T5Xz3kf5yhTvoUqRICwtundaKixCq8gMlsy6wKhACGPkQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSfQ2T5Xz3kf5yhTvoUqRICwtundaKixCq8gMlsy6wKhACGPkQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
           <div class="w3-section">
             <p>Which invitation did you receive?</p> 
-            <input class="w3-check" type="checkbox" id="event" required name="entry.557756205_sentinel">
+            <input class="w3-check" type="checkbox" id="event" name="entry.557756205_sentinel">
             <label for="event">In-Person Ceremony (August 6, 2021)</label>
             <p>
-            <input class="w3-check" type="checkbox" id="event" required name="entry.557756205_sentinel">
+            <input class="w3-check" type="checkbox" id="event" name="entry.557756205_sentinel">
             <label>Virtual Ceremony (August 6, 2021)</label>
             <p>
             <input class="w3-check" type="checkbox" id="event" required name="entry.557756205_sentinel">
