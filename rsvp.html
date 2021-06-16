@@ -120,7 +120,7 @@
                 if(name.length == 0) {
                   alert("Name can't be blank") ;
                   return false;
-    
+                  plausible('Blank Name');
                 }
                 if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
                   alert("Please enter your correct name") ;//Validation Message
@@ -168,6 +168,7 @@
                 // || !validatePhone() 
                 alert("Form not submitted");//Validation Message
                 return false;
+                plausible('Validation Bounce');
               }
               else {
                 submitted=true;
