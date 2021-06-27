@@ -5,8 +5,8 @@ The website for Kimberly and Malcolm's wedding ocurring August 2021.
 
 ## Authors
 
-- [:octocat:mds08011](https://github.com/mds08011)
-- [:octocat:rampatra](https://github.com/rampatra)
+- [mds08011 :octocat:](https://github.com/mds08011)
+- [rampatra :octocat:](https://github.com/rampatra)
 
   
 ## Acknowledgements
