@@ -1,19 +1,26 @@
-# Purpose
-This is a website for Kimberly and Malcolm's Wedding
 
-# Background
-This entire website template was forked from [Ram Patra's wedding-website template](https://github.com/rampatra/wedding-website).
+# Kimberly and Malcolm's Wedding Website
 
-Blog post explaining how to use the website: [https://blog.rampatra.com/wedding-website](https://blog.rampatra.com/wedding-website)
+The website for Kimberly and Malcolm's wedding ocurring August 2021.
 
-[![alt text][6.1]][6]
+## Authors
 
-<!-- [6.1]: http://i.imgur.com/0o48UoR.png (github icon with padding) -->
+- [:octocat:mds08011](https://github.com/mds08011)
+- [:octocat:rampatra](https://github.com/rampatra)
 
-<!-- icons without padding -->
+  
+## Acknowledgements
 
-[6.2]: http://i.imgur.com/9I6NRUm.png
+ - Many thanks to Ram Patra for his [wedding-website template](https://github.com/rampatra/wedding-website) upon which this website was built.  Ram also wrote a [blog post](https://blog.rampatra.com/wedding-website) detailing the use of his template.
+ - [Katherine Peterson](https://www.github.com/octokatherine) for creating [https://readme.so](https://readme.so)
 
+  
+## License
 
-[6]: http://www.github.com/mds08011
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://www.gnu.org/licenses/quick-guide-gplv3.html)
+[GNU General Public License v3.0](https://github.com/mds08011/malkimberly-wedding/blob/main/LICENSE)
+## Appendix
 
+Additional resources used in the creation of this website can be found here: https://malcolmdsmith.com/online/web-dev.html
+
+  
