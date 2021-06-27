@@ -614,7 +614,6 @@ header .member-actions {
 .events .time {
  font-size:13px;
  font-style:italic;
- text-transform:lowercase;
  color:rgba(28,54,83,0.6)
 }
 .blog {
